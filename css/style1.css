@@ -1,0 +1,31 @@
+.display h3
+{
+   color:green;
+}
+.display h4
+{
+   color:black;
+}
+.submit
+{
+	padding-top:30px;
+	padding-bottom:20px;
+}
+#float_right
+{
+	margin-top:20px;
+}
+.display
+{
+	padding-top:40px;
+}
+form
+{
+	
+}
+.qr
+{
+	height:320px;
+	
+	background: url(../images1/qr.jpg) no-repeat 0px 0px;
+}

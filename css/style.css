@@ -1,0 +1,1546 @@
+
+
+@font-face {
+    font-family: 'Montserrat-Regular';
+    src:url(../fonts/Montserrat-Regular.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Oxygen-Regular';
+    src:url(../fonts/Oxygen-Regular.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Open Sans', sans-serif;
+    src:url(../fonts/OpenSans-Regular.ttf) format('truetype');
+}
+html,body{
+	background:#fff;
+	font-size: 100%;
+	font-family: 'Oxygen-Regular';
+}
+body a{
+	transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+	-o-transition: 0.5s all;
+	-moz-transition: 0.5s all;
+	-ms-transition: 0.5s all;
+}
+ ul{
+	padding: 0;
+	margin: 0;
+}
+h1,h2,h3,h4,h5,h6{
+	margin:0;	
+	font-family: 'Montserrat-Regular';
+}
+/*----*/
+.logo {
+  float: left;
+}
+.logo a{
+	
+  margin-top:0px;
+  padding-top:0px;
+}
+.w3layouts-login{
+	float:right;
+	margin-top: 8px;;
+}
+/*--header--*/
+header{
+    background-color: rgba(0, 0, 0, 0.52);
+    padding: 1em 0;
+    position: fixed;
+    top: 0;
+    z-index: 9999;
+    width: 100%;
+    box-shadow: 0 40px 100px rgba(255, 255, 255, 0.2);
+}
+.w3layouts-main-content {
+    padding:80px 0;
+}
+.logo h1{
+	font-size:2em;
+	text-align: center;
+    margin: 0em 0 0;
+}
+.logo h1 a{
+	text-decoration: none;
+	color:#fff905;
+}
+.right-icons li{
+	display: inline-block;
+}
+.w3layouts-login a{
+    display: block;
+    letter-spacing: 2px;
+    font-size: 25px;
+	font-weight:400;
+    color: #fff905;
+    text-decoration: none;
+    margin: 0 0.3em;
+	/*font-family:Times New Roman;*/
+}
+a.play-icon.popup-with-zoom-anim {
+  	color: #000000;
+  	font-size: 1em;
+}
+i.glyphicon.glyphicon-menu-hamburger {
+  font-size: 1em;
+  color: #fff;
+}
+/*--//header--*/
+/*--- slider-css --*/
+.slider {
+	position: relative;
+}
+.rslides {
+	  position: relative;
+	  list-style: none;
+	  overflow: hidden;
+	  width: 100%;
+	  padding: 0;
+	  margin: 0;
+}
+.rslides li {
+	  -webkit-backface-visibility: hidden;
+	  position: absolute;
+	  display: none;
+	  width: 100%;
+	  left: 0;
+	  top: 0;
+}
+.rslides li:first-child {
+	  position: relative;
+	  display: block;
+	  float: left;
+}
+.rslides img {
+	  display: block;
+	  height: auto;
+	  float: left;
+	  width: 100%;
+	  border: 0;
+}
+.callbacks_tabs a:after {
+	content: "\f111";
+	font-size: 0;
+	font-family: FontAwesome;
+	visibility: visible;
+	display: block;
+	height: 12px;
+	width: 12px;
+	display: inline-block;
+	background: #fff;
+	border-radius:50px;
+}
+.callbacks_here a:after{
+	background:#fff905;
+}
+.callbacks_tabs a{
+	visibility:hidden;
+}
+.callbacks_tabs li{
+	display:inline-block;
+}
+ul.callbacks_tabs.callbacks1_tabs {
+	position: absolute;
+	bottom: 14%;
+  	z-index: 999;
+  	right: 10%;
+}
+
+.caption{
+	position: absolute;
+	top: 43%;
+  	left: 13%;
+}
+.caption h3{
+    color: #fff;
+    font-size: 48px;
+    display: inline-block;
+    padding: 0 0 0.3em;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+.caption h3 span{
+	border-bottom: 2px solid #1cebe1;
+    padding-bottom: 5px;
+}
+.caption p{
+    margin: 0.8em 0em 0;
+}
+.caption p a{
+	color: #fff;
+    font-size: 17px;
+    margin: 0.8em 0em 0;
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+.caption p a:hover {
+    color: #1cebe1;
+}
+.banner1{
+	background: url(../images/1.jpg) no-repeat;
+	width:100%;
+	min-height: 800px;
+	background-size: cover;
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+.banner2{
+	background: url(../images/2.jpg) no-repeat;
+	width:100%;
+	min-height: 800px;
+	background-size: cover;
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+.banner3{
+	background: url(../images/3.jpg) no-repeat;
+	width:100%;
+	min-height: 800px;
+	background-size: cover;
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+.banner4{
+	background: url(../images/4.jpg) no-repeat;
+	width:100%;
+	min-height: 800px;
+	background-size: cover;
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+/*-- Partners --*/
+.w3layouts-partners ul li{
+	display:inline-block;
+  	width:19.6%;
+  	margin: 0 auto;
+}
+.w3layouts-partners {
+  padding: 5em 0;
+    background-color: #ffffff;
+}
+.w3layouts-partners h3{
+	text-align: center;
+    color: #1cebe1;
+    font-size: 35px;
+}
+.w3layouts-partners ul{
+	width:75%;
+	margin: 6% auto 0;
+}
+.w3layouts-partners ul li a img{
+	margin: 0 auto;
+}
+/*-- //Partners --*/
+/*--//--*/
+/*--privacy--*/
+/*--//privacy--*/
+/*--login--*/
+.modal-dialog {
+    margin: 10em auto 0;
+}
+.modal-header {
+    padding: 25px;
+}
+.modal-body {
+    padding: 30px 0px 30px 0px;
+}
+.btn_red:hover {background: #9F9F9F;}
+
+a.btn { text-align: center; text-decoration: none;}
+
+/* Popup Styles*/
+
+
+
+/* Social Login Form */
+ul.nav.nav-tabs {
+    /*border-bottom: 1px solid #ddd;*/
+    margin-bottom: 2em;
+    padding-bottom: 1em;
+}
+.modal-open .modal {
+    background: rgba(0, 0, 0, 0.61);
+}
+h3.other-nw {
+    margin: 16px 0;
+}
+.modal-title {
+    margin: 0;
+    line-height: 1.42857143;
+    text-align: center;
+    font-size: 30px;
+    color: #000;
+}
+.modal-content {
+    border-radius: 0px;
+}
+/**** LOGIN_SIGNUP ******/
+/* signup Form styles */
+/*--phone--*/
+/*--//phone--*/
+
+/*--faqs--*/
+/*-- //contact-page --*/
+
+/*-- to-top --*/
+#toTop {
+	display: none;
+	text-decoration: none;
+	position: fixed;
+	bottom: 20px;
+	right: 2%;
+	overflow: hidden;
+	z-index: 999; 
+	width: 32px;
+	height: 32px;
+	border: none;
+	text-indent: 100%;
+	background: url(../images/top-arrow.png) no-repeat 0px 0px;
+}
+#toTopHover {
+	width: 32px;
+	height: 32px;
+	display: block;
+	overflow: hidden;
+	float: right;
+	opacity: 0;
+	-moz-opacity: 0;
+	filter: alpha(opacity=0);
+}
+/*-- //to-top --*/
+
+
+
+/*--responsive--*/
+@media(max-width:1440px){
+	.banner1, .banner2, .banner3, .banner4 {
+		min-height: 670px;
+	}
+}
+@media(max-width:1366px){
+	.caption h3 {
+		font-size: 45px;
+	}
+	.banner1, .banner2, .banner3, .banner4 {
+		min-height: 630px;
+	}
+	.w3-agile-offers h3 {
+		font-size: 2.4em;
+	}
+	h3.m-head {
+		font-size: 25px;
+	}
+}
+@media(max-width:1280px){
+	.banner1, .banner2, .banner3, .banner4 {
+		min-height: 590px;
+	}
+	.caption h3 {
+		font-size: 42px;
+	}
+	.agileits-amet-sed h4 {
+		font-size: 14px;
+	}
+	.modal-dialog {
+		width: 70%;
+		margin: 8em auto 0;
+	}
+	h3.icon-subheading {
+		font-size: 26px;
+	}
+}
+@media(max-width:1200px){
+	.banner1, .banner2, .banner3, .banner4 {
+		min-height: 560px;
+	}
+	.w3_agile_support_right h3 {
+		font-size: 33px;
+		letter-spacing: 1px;
+	}	
+	.caption h3 {
+		font-size: 38px;
+	}
+	.w3-agile-subscribe-right h3.w3ls-title {
+		font-size: 24px;
+	}
+	.agileits-amet-sed h4 {
+		letter-spacing: 1px;
+	}
+	.w3-footer-logo h2 {
+		font-size: 28px;
+	}
+	.agileits-footer-class p {
+		margin-top: 3px;
+	}
+	.movie-ticket-book img {
+		width: 100%;
+	}
+}
+@media(max-width:1080px){
+	.banner1, .banner2, .banner3, .banner4 {
+		min-height: 500px;
+	}
+	.caption h3 {
+		font-size: 35px;
+	}
+	.modal-dialog {
+		width: 85%;
+		margin: 7em auto 0;
+	}
+	.mobile-rchge a {
+		width: 42%;
+	}
+	.phone-text h4 {
+		font-size: 25px;
+		line-height: 36px;
+	}
+	.agileinfo-dwld-app h6 {
+		letter-spacing: 1px;
+	}
+	.w3_agile_support_right h3 {
+		font-size: 30px;
+		letter-spacing: 0px;
+	}
+	.w3-agile-offers h3 {
+		font-size: 2.2em;
+	}
+	.w3layouts-partners ul li {
+		width: 19.5%;
+	}
+	.w3-agile-subscribe-right {
+		padding-left: 0;
+	}
+	.w3-subscribe input[type="email"] {
+		width: 71%;
+	}
+	.w3-subscribe input[type="submit"] {
+		padding: 14px 28px;
+	}
+	.agileits-amet-sed {
+		width: 25%;
+		float: left;
+	}
+	.w3-agile-subscribe-right h3.w3ls-title {
+		font-size: 23px;
+		line-height: 33px;
+	}
+	.phone {
+		padding: 4em 0;
+	}
+	.w3l-support, .agileits_w3layouts_contact {
+		padding: 4em 0 0;
+	}
+	.bus-tp-inner h3 {
+		font-size: 20px;
+	}
+	h3.w3-head {
+		font-size: 33px;
+	}
+	h3.m-head {
+		font-size: 23px;
+		letter-spacing: 1px;
+	}
+	.movie-date-selection ul li {
+		width: 19%;
+	}
+	.sitemap-grid h4 {
+		font-size: 20px;
+		letter-spacing: 0px;
+	}
+	.w3layouts-content {
+		padding: 50px 0;
+	}
+	.movie-ticket-book h4 {
+		font-size: 1em;
+	}
+	.movie-ticket-book p {
+		font-size: 0.9em;
+		margin-top: 4px;
+	}
+	.icon-box {
+		height: 68px;
+	}
+	h3.icon-subheading {
+		font-size: 24px;
+	}
+	ul.w3ls-nav-bottom {
+		margin-top: 28px;
+	}
+	.agileits-amet-sed:nth-child(5) {
+		margin-top: 4%;
+	}	
+}
+@media(max-width:1050px){
+	.w3-subscribe {
+		padding: 2em 0;
+	}
+	h3.w3-head {
+		font-size: 30px;
+		margin: 0 0 30px 0;
+	}
+	.terms p {
+		font-size: 14px;
+		padding-left: 15px;
+	}
+	.terms h6 {
+		font-size: 18px;
+		margin: 30px 0 10px 0;
+	}
+	.feed-back h3 {
+		font-size: 22px;
+	}
+	.feed-back-form span {
+		font-size: 16px;
+	}
+	.help h5, .privacy-w3row h5 {
+		font-size: 19px;
+	}
+	p.sed-para, .more-address b, .more-address strong {
+		font-size: 1.15em;
+	}
+	.more-address {
+		padding: 1em 0 1em 0;
+	}
+	h3.agileits-icons-title {
+		font-size: 32px;
+	}
+}
+@media(max-width:1024px){
+	.banner1, .banner2, .banner3, .banner4 {
+		min-height: 470px;
+	}
+	.categories-section.main-grid-border {
+		padding: 70px 0;
+	}	
+	.w3layouts-partners {
+		padding: 4em 0;
+	}
+	.agileits-inner-banner {
+		min-height: 180px;
+	}
+	.w3layouts-breadcrumbs {
+		padding: 10px 0;
+	}
+	.sitemap-grid ul li a {
+		font-size: 15px;
+	}
+	.sitemap-grid ul li i.fa.fa-long-arrow-right {
+		margin-right: 10px;
+		font-size: 10px;
+	}
+	h3.m-head {
+		font-size: 20px;
+	}
+	.caption h3 {
+		font-size: 33px;
+		letter-spacing: 1px;
+	}
+	.faq-w3agile .faq > li > a {
+		font-size: 16px;
+	}
+}
+@media(max-width:991px){
+	.mobile-rchge a {
+		width: 60%;
+		margin-left: 10%;
+	}
+	.mobile-rchge input[type="text"] {
+		width: 95%;
+	}
+	.categories-section.main-grid-border {
+		padding: 60px 0;
+	}
+	.logo h1 {
+		font-size: 1.85em;
+	}
+	.w3layouts-login a {
+		font-size: 12px;
+	}
+	.phone-text {
+		margin-top: 7%;
+	}	
+	.wthree-mobile-app form input.text {
+		width: 62%;
+	}
+	.w3-agile-offers h3 {
+		font-size: 2em;
+	}	
+	.w3-agile-offers {
+		padding: 1.5em;
+		width: 45%;
+	}
+	.w3layouts-partners ul {
+		width: 95%;
+	}
+	.w3layouts-partners ul li {
+		width: 15.5%;
+		margin: 0px 2%;
+	}
+	.w3-agile-subscribe-right {
+		margin-top: 2%;
+		float: right;
+		width: 66%;
+	}
+	.social-icons.w3-agile-icons {
+		margin-top: 0em;
+	}
+	.w3_agile_support_left img {
+		width: 35%;
+		margin: 0 auto;
+	}
+	.w3_agile_support_right {
+		margin: 3em 0 3em;
+	}
+	.w3_agile_support_right p {
+		margin: 1em 0 2em;
+	}
+	.w3-footer-logo {
+		float: left;
+	}
+	.agileits-footer-class {
+		float: right;
+	}
+	.w3-footer-logo h2 {
+		font-size: 26px;
+	}
+	.w3l-footer-bottom {
+		padding: 1.2em 0;
+	}
+	.bann-info1 {
+		padding: 0em 0em 4em;
+	}
+	.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+		padding: 8px 0;
+	}
+	.check_box_one {
+		float: left;
+		width: 33%;
+	}
+	form.cc-form {
+		margin-top: 30px;
+	}
+	.modal-body {
+		padding: 30px 30px 45px 30px;
+	}
+	.extra-w3layouts {
+		border-right: 1px solid transparent!important;
+		border-bottom: 1px dotted #C2C2C2;
+		padding-bottom: 40px;
+	}
+	div#OR {
+		right: 50%;
+		top: 94%;
+	}
+	.extra-agileits {
+		margin: 3% auto 0;
+		width: 50%;
+	}
+	div.seatCharts-container {
+		width: 58%;
+	}
+}
+@media(max-width:900px){
+	.banner1, .banner2, .banner3, .banner4 {
+		min-height: 420px;
+	}	
+	.caption h3 {
+		font-size: 32px;
+		letter-spacing: 0px;
+	}
+	input#tel,input#customer {
+		width: 100%;
+	}
+	.bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn) {
+		width: 100%;
+	}
+	.agileits-amet-sed {
+		width: 33.333%;
+	}
+	.agileits-amet-sed:nth-child(4) {
+		margin-top: 4%;
+	}
+	.modal-dialog {
+		width: 90%;
+		margin: 5em auto 0;
+	}
+	.feed-back h3 {
+		font-size: 20px;
+	}
+	h3.w3-head {
+		font-size: 28px;
+		margin: 0 0 25px 0;
+	}
+	h3.icon-subheading {
+		font-size: 22px;
+	}
+	h3.agileits-icons-title {
+		font-size: 30px;
+	}
+	label.radio, .checkbox {
+		font-size: 18px;
+	}
+}
+@media(max-width:800px){
+	.caption h3 {
+		font-size: 28px;
+	}
+	.caption p a {
+		font-size: 15px;
+		letter-spacing: 1px;
+	}
+	i.icon.inner-icon {
+		font-size: 90px;
+	}
+	.w3-agile-offers h3 {
+		font-size: 1.8em;
+	}
+	.w3layouts-partners h3 {
+		font-size: 32px;
+	}
+	.w3-agile-subscribe-right h3.w3ls-title {
+		font-size: 22px;
+		line-height: 32px;
+	}
+	.w3-footer-logo {
+		float: none;
+		text-align: center;
+	}
+	.agileits-footer-class {
+		float: none;
+		text-align: center;
+		margin-top: 15px;
+	}
+	.categories-section.main-grid-border {
+		padding: 50px 0;
+	}
+	h3.agileits-icons-title {
+		font-size: 26px;
+	}
+	h3.icon-subheading {
+		font-size: 20px;
+	}
+	.agileits-inner-banner {
+		min-height: 160px;
+	}
+	.bann-info h3 {
+		font-size: 28px;
+		letter-spacing: 0px;
+	}
+	div.seatCharts-container {
+		width: 68%;
+		float: none;
+		padding: 0 0px 20px 0;
+		border-right: 1px solid transparent;
+		border-bottom: 1px solid #adadad;
+	}
+	.booking-details {
+		float: none;
+		width: 58%;
+		margin-top: 30px;
+	}
+}
+@media(max-width:768px){
+	.logo h1 {
+		font-size: 1.8em;
+	}
+	.callbacks_tabs a:after {
+		height: 10px;
+		width: 10px;
+	}
+	.w3-footer-logo h2 {
+		font-size: 24px;
+	}
+	.w3_agile_support_right p {
+		line-height: 28px;
+		font-size: 15.5px;
+	}
+	.w3_agile_support_right h3 {
+		font-size: 28px;
+	}
+	.mobile-rchge a {
+		width: 38%;
+	}
+	.modal-title {
+		font-size: 26px;
+	}
+	h3.m-head {
+		font-size: 18px;
+	}
+	.help h5, .privacy-w3row h5 {
+		font-size: 18px;
+	}
+}
+@media(max-width:736px){
+	.caption h3 {
+		font-size: 26px;
+	}
+	.banner1, .banner2, .banner3, .banner4 {
+		min-height: 400px;
+	}
+	.caption h3 span {
+		border-bottom: 1px solid #1cebe1;
+		padding-bottom: 3px;
+	}
+	.w3-agile-subscribe-right {
+		width: 68%;
+	}
+	h3.w3-head {
+		font-size: 26px;
+		margin: 0px 0 20px 0;
+	}
+	.feed-back h3 {
+		font-size: 18px;
+	}
+	.feed-back p {
+		font-size: 13px;
+		line-height: 26px;
+		margin: 16px 0 20px;
+	}
+	h3.agileits-icons-title {
+		font-size: 24px;
+	}
+	.callbacks_tabs a:after {
+		height: 8px;
+		width: 8px;
+	}
+	.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+		padding: 8px 12px;
+	}
+}
+@media(max-width:667px){
+	.caption h3 {
+		font-size: 24px;
+	}
+	.logo h1 {
+		font-size: 1.7em;
+	}
+	.phone-text h4 {
+		font-size: 23px;
+		line-height: 35px;
+	}
+	.wthree-mobile-app {
+		width: 90%;
+		margin: 60px auto 0;
+	}
+	.wthree-mobile-app form input[type="submit"] {
+		font-size: 0.9em;
+		padding: 14px 22px;
+	}
+	.w3_agile_support_right h3 {
+		font-size: 26px;
+	}
+	.w3_agile_support_right p {
+		line-height: 26px;
+		font-size: 15px;
+	}	
+	.w3-agile-offers h3 {
+		font-size: 1.7em;
+	}
+	.w3-agile-offers p {
+		font-size: 0.87em;
+		line-height: 1.8em;
+	}
+	.w3layouts-partners ul li {
+		width: 15%;
+	}
+	.w3layouts-partners h3 {
+		font-size: 30px;
+	}
+	.w3layouts-partners ul {
+		margin: 5% auto 0;
+	}
+	.mobile-rchge a {
+		width: 48%;
+	}	
+	.w3-agile-offers {
+		padding: 1.4em;
+		width: 50%;
+	}
+	.w3-agile-subscribe-right h3.w3ls-title {
+		font-size: 20px;
+		line-height: 30px;
+	}
+	.w3-subscribe h4 {
+		font-size: 1.35em;
+		margin-bottom: 0.8em;
+	}
+	.agileinfo-dwld-app h6 {
+		font-size: 18px;
+		margin-top: 35px;
+		letter-spacing: 1px;
+	}
+	.w3-agile-subscribe-right {
+		width: 76%;
+	}
+	.agileits-amet-sed {
+		width: 50%;
+	}
+	.agileits-amet-sed:nth-child(3),.agileits-amet-sed:nth-child(4),.agileits-amet-sed:nth-child(5) {
+		margin-top: 8%;
+	}
+	.bann-info h3 {
+		font-size: 26px;
+		margin-bottom: 10px;
+	}
+	.ban-top .inputLabel, .ban-bottom .inputLabel {
+		margin-top: 7px;
+	}
+	.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+		padding: 8px 15px;
+	}
+	.valid-agileits {
+		width: 75%;
+	}
+	.agile-price {
+		width: 20%;
+	}
+	div.seatCharts-container {
+		width: 75%;
+	}
+	.booking-details {
+		width: 65%;
+	}
+}
+@media(max-width:600px){
+	.caption {
+		top: 42%;
+		left: 4%;
+		width:96%;
+	}
+	.banner1, .banner2, .banner3, .banner4 {
+		min-height: 360px;
+	}
+	.w3-agile-subscribe-right {
+		width: 86%;
+	}	
+	.w3layouts-partners {
+		padding: 3em 0;
+	}
+	.mobile-rchge a {
+		width: 54%;
+	}
+	.check_box_one {
+		width: 50%;
+	}
+	.sitemap-grid h4 {
+		font-size: 18px;
+		margin-bottom: 10px;
+	}
+	div.seatCharts-container {
+		width: 90%;
+	}
+	.booking-details {
+		width: 80%;
+	}
+}
+@media(max-width:568px){
+	.caption h3 {
+		font-size: 22px;
+	}
+	.banner1, .banner2, .banner3, .banner4 {
+		min-height: 340px;
+	}
+	.mobile-rchge a {
+		width: 60%;
+	}
+	i.icon.inner-icon {
+		font-size: 80px;
+	}
+	.wthree-mobile-app form input[type="submit"] {
+		padding: 14px 20px;
+	}
+	.w3_agile_support_right h5 {
+		font-size: 1.2em;
+	}
+	.w3-agile-offers {
+		padding: 1em;
+		width: 60%;
+	}
+	.w3-offers {
+		min-height: 240px;
+	}
+	.w3-agile-subscribe-right {
+		width: 91%;
+	}
+	.w3-footer-logo h2 {
+		font-size: 22px;
+	}
+	.agileits-footer-class p {
+		font-size: 12px;
+	}
+	.extra-agileits {
+		width: 60%;
+	}
+	i.train-icon.fa {
+		font-size: 90px;
+	}
+	.map iframe {
+		min-height: 290px;
+	}
+	.section_room_pay select {
+		width: 80%;
+	}
+	.vertical_post form input[type="submit"] {
+		width: 35%;
+	}
+	.w3ls-supportform select {
+		width: 50%;
+	}
+}
+@media(max-width:480px){
+	.mobile-rchge a {
+		font-size: 14px;
+		width: 58%;
+	}
+	.phone {
+		padding: 2em 0;
+	}
+	.wthree-mobile-app {
+		width: 100%;
+		margin: 40px auto 0;
+	}
+	.wthree-mobile-app form input[type="submit"] {
+		padding: 14px 15px;
+	}
+	.wthree-mobile-app form input.text {
+		width: 60%;
+	}
+	p.subtitle {
+		font-size: 14px;
+	}
+	.text-1 h5 {
+		font-size: 1.2em;
+		margin: 20px 0 4px 0;
+	}
+	.phone-text h4 {
+		font-size: 22px;
+		line-height: 32px;
+	}
+	.w3_agile_support_right h3 {
+		font-size: 24px;
+	}
+	.w3-agile-offers h3 {
+		font-size: 1.6em;
+	}	
+	.w3-agile-offers {
+		width: 65%;
+		margin: 4em auto 0;
+	}
+	.w3layouts-partners h3 {
+		font-size: 28px;
+	}
+	.w3-agile-subscribe-right h3.w3ls-title {
+		font-size: 19px;
+		line-height: 26px;
+	}
+	.w3-agile-subscribe-right {
+		width: 99%;
+	}
+	.w3-subscribe input[type="email"] {
+		width: 68%;
+	}
+	.agileits-amet-sed h4 {
+		letter-spacing: 0.5px;
+	}	
+	ul.w3ls-nav-bottom li {
+		font-size: 12px;
+		margin: 12px 0 0 0;
+	}
+	.agileits-footer-class p {
+		line-height: 23px;
+	}
+	.logo h1 {
+		font-size: 1.6em;
+	}
+	.w3layouts-login a {
+		font-size: 11.5px;
+	}
+	.caption h3 {
+		font-size: 19px;
+	}
+	.banner1, .banner2, .banner3, .banner4 {
+		min-height: 300px;
+	}
+	.caption p {
+		margin: 0.4em 0em 0;
+	}	
+	.modal-body {
+		padding: 10px 12px 40px 12px;
+	}
+	.bann-info h3 {
+		font-size: 23px;
+		margin-bottom: 15px;
+	}
+	.bus-tp-inner h3 {
+		font-size: 18px;
+	}
+	.modal-title {
+		font-size: 24px;
+	}
+	div.seatCharts-container {
+		border-right: 1px solid transparent;
+		border-bottom: 1px solid #adadad;
+		width: 80%;
+		padding-bottom:5%;
+	}
+	.booking-details {
+		width: 92%;
+	}
+	.main-booking {
+		margin: 15px auto 0;
+	}
+	.movie-preview {
+		width: 80%;
+		float: none;
+		margin: 25px auto;
+	}
+	.movie-date-selection ul {
+		padding: 1em 0.5em;
+		margin-left: 0;
+	}
+	.movie-date-selection ul li:nth-child(2) {
+		width: 100%;
+		text-align: left;
+		margin-bottom: 10px;
+	}
+	.movie-date-selection ul li {
+		width: 23%;
+	}
+	.radio_one {
+		padding-left: 0px;
+	}
+	.section_room_pay select {
+		width: 90%;
+	}
+	.vertical_post form input[type="submit"] {
+		font-size: 15px;
+		width: 37%;
+	}
+	.w3ls-supportform select {
+		width: 60%;
+	}
+	.help h5, .privacy-w3row h5 {
+		font-size: 17px;
+	}
+	h3.w3-head {
+		font-size: 25px;
+	}
+	.w3layouts-content {
+		padding: 40px 0;
+	}
+	.feed-back-form input[type="text"], .feed-back-form input[type="email"], .feed-back-form input[type="tel"], .feed-back-form textarea {
+		width: 90%;
+	}
+	h3.icon-subheading {
+		font-size: 18px;
+	}
+	h3.agileits-icons-title {
+		font-size: 22px;
+	}
+	.icons .bs-glyphicons li {
+		width: 45%;
+		margin: 2%;
+	}
+	div.seatCharts-container {
+		width: 100%;
+	}
+	.booking-details {
+		width: 100%;
+	}
+}
+@media(max-width:414px){
+	.logo h1 {
+		font-size: 1.5em;
+	}
+	.caption h3 {
+		font-size: 19px;
+		line-height: 31px;
+		height: 60px;
+	}
+	.wthree-mobile-app form input[type="submit"] {
+		padding: 11px 10px;
+		font-size: 0.85em;
+	}
+	.wthree-mobile-app form input.text {
+		width: 58%;
+		font-size: 15px;
+	}
+	.w3_agile_support_right h3 {
+		font-size: 22px;
+		line-height:28px;
+	}
+	.mobile-rchge a {
+		width: 71%;
+	}
+	.w3_agile_support_left img {
+		width: 45%;
+	}
+	.w3layouts-partners h3 {
+		font-size: 26px;
+	}
+	.w3-subscribe input[type="submit"] {
+		padding: 14px 18px;
+	}
+	.w3-subscribe form {
+		margin-top: 1em;
+	}
+	.w3-agile-subscribe-right {
+		margin-top: 10%;
+	}
+	.w3layouts-partners ul li {
+		width: 60%;
+		margin: 20px 20%;
+	}
+	.agileits-amet-sed {
+		width: 100%;
+		text-align:center;
+	}
+	.agileits-amet-sed:nth-child(2), .agileits-amet-sed:nth-child(3), .agileits-amet-sed:nth-child(4), .agileits-amet-sed:nth-child(5) {
+		margin-top: 10%;
+	}
+	.modal-title {
+		font-size: 22px;
+	}
+	.check_box_one {
+		width: 100%;
+	}
+	.movie-preview {
+		width: 85%;
+	}
+	.movie-ticket-book img {
+		width: 65%;
+		float: none;
+	}
+	div.seatCharts-container {
+		width: 100%;
+	}
+	.sitemap-grid {
+		padding: 0;
+	}
+	.sitemap-grid h4 {
+		font-size: 17px;
+	}
+	.sitemap-grid ul {
+		margin-bottom: 30px;
+	}
+	.help h5, .privacy-w3row h5 {
+		font-size: 16px;
+	}
+	.valid-agileits {
+		width: 100%;
+	}
+	.agile-price {
+		width: 100%;
+		margin: 0 auto;
+	}
+	div.seatCharts-cell {
+		height: 25px;
+		width: 25px;
+		line-height: 26px;
+		margin: 2px;
+		font-size: 12px;
+	}
+	.front {
+		margin: 5px 4px 25px 5px;
+	}
+}
+@media(max-width:384px){
+	.movie-preview {
+		width: 90%;
+	}
+	.logo h1 {
+		font-size: 1.45em;
+	}
+	.banner1, .banner2, .banner3, .banner4 {
+		min-height: 280px;
+	}
+	label.radio, .checkbox {
+		font-size: 16px;
+	}
+	.radio i, .checkbox i {
+		top: 5px;
+	}
+	.checkbox input, .radio input {
+		top: 1px;
+	}
+	i.icon.inner-icon {
+		font-size: 70px;
+	}
+	.wthree-mobile-app form input.text {
+		width: 100%;
+	}
+	.wthree-mobile-app form input[type="submit"] {
+		margin-top: 15px;
+	}
+	.tab-content {
+		padding: 0;
+	}
+	.extra-agileits {
+		width: 90%;
+	}
+	h3.other-nw {
+		font-size: 20px;
+	}
+	.text-1 p {
+		width: 100%;
+	}
+	.w3_agile_support_left img {
+		width: 55%;
+	}
+	.agileinfo-dwld-app h6 {
+		font-size: 17px;
+		letter-spacing: 0px;
+	}
+	.w3_agile_support_right h5 {
+		margin-bottom: 1em;
+	}
+	.w3-agile-offers {
+		width: 77%;
+		margin: 3em auto 0;
+	}
+	.w3-subscribe input[type="email"] {
+		width: 65%;
+	}
+	.agileits-amet-sed h4 {
+		font-size: 18px;
+	}
+	.terms p {
+		font-size: 13.5px;
+	}
+	.terms ol li {
+		font-size: 14px;
+	}
+	.w3ls-supportform {
+		padding: 0;
+	}
+	.map iframe {
+		min-height: 250px;
+	}
+	.agileits-inner-banner {
+		min-height: 140px;
+	}
+	img.w3ls-mobile {
+		width: 25%;
+	}
+	ul.tabs-menu {
+		margin: 30px 0px 5px 0;
+	}
+	div.seatCharts-cell {
+		height: 23px;
+		width: 23px;
+		line-height: 23px;
+	}
+}
+@media(max-width:375px){
+	.movie-preview {
+		width: 95%;
+	}
+	.extra-agileits {
+		width: 100%;
+	}	
+	.w3_agile_support_left img {
+		width: 65%;
+	}
+	i.icon.inner-icon {
+		font-size: 60px;
+	}
+	.w3layouts-login a {
+		font-size: 12px;
+		letter-spacing: 0.5px;
+	}
+	.w3layouts-login {
+		margin-top: 5px;
+	}
+	.mobile-rchge a {
+		width: 76%;
+	}
+	.w3-subscribe input[type="submit"] {
+		padding: 14px 16px;
+	}	
+	.terms h6 {
+		font-size: 17px;
+		margin: 20px 0 5px 0;
+	}
+	.icon-box {
+		height: 50px;
+		width: 100%;
+		margin: 0.5em 0 0.5em 0;
+	}
+	ul.book-right li {
+		font-size: 15px;
+	}
+	ul.book-left li {
+		font-size: 15px;
+	}
+	div.seatCharts-cell {
+		margin: 1px;
+	}
+}
+@media(max-width:320px){
+	.categories-section.main-grid-border {
+		padding: 40px 0;
+	}
+	.logo {
+		float: none;
+	}
+	.w3layouts-login {
+		margin-top: 10px;
+		float: none;
+		text-align: center;
+	}
+	.w3layouts-login a {
+		letter-spacing: 1px;
+	}
+	.caption p a {
+		font-size: 14px;
+		letter-spacing: 0.5px;
+	}
+	.modal-body {
+		padding: 5px 15px 30px 16px;
+	}
+	button.submit {
+		padding: 8px 16px;
+	}
+	label.radio, .checkbox {
+		font-size: 15px;
+		padding-left: 20px;
+	}
+	ul.tabs-menu li {
+		margin: 0 22px 0 0;
+	}
+	img.w3ls-mobile {
+		width: 30%;
+	}
+	.mobile-rchge {
+		width: 70%;
+	}
+	.phone-text {
+		padding: 0;
+	}
+	.phone-text h4 {
+		font-size: 20px;
+		line-height: 30px;
+	}
+	.w3_agile_support_left img {
+		width: 70%;
+	}
+	.w3-subscribe input[type="submit"] {
+		padding: 14px 7px;
+	}
+	.movie-preview {
+		width: 100%;
+		padding: 0;
+	}
+	.movie-ticket-book img {
+		width: 75%;
+	}
+	.movie-date-selection ul li {
+		width: 43%;
+		margin: 5px 0;
+	}
+	h3.w3-head {
+		font-size: 23px;
+	}
+	.terms ol {
+		padding-left: 30px;
+	}
+	.sitemap-grid h4 {
+		line-height: 25px;
+	}
+	.checkbox input, .radio input {
+		top: 0px;
+	}
+	.caption h3 {
+		line-height: 33px;
+		height: 62px;
+	}
+	a.agileits-forgot {
+		font-size: 13px;
+	}
+	.agileinfo-dwld-app h6 a i {
+		margin: 0 5px;
+	}
+	div#OR {
+		right: 44%;
+	}
+	div.seatCharts-cell {
+		height: 19px;
+		width: 19px;
+		font-size: 10px;
+		line-height: 20px;
+	}
+}
+/* */
+button.submit {
+    background: #28ece3;
+    border: none;
+    color: #fff;
+    padding: 9px 20px;
+    letter-spacing: 1px;
+    cursor: pointer;
+	margin-bottom:20px;
+}
+
+.left-control, .right-control {
+  position: absolute;
+  top: 50%;
+  height: 51px;
+  width: 51px;
+  line-height: 48px;
+  border-radius: 50%;
+  border:1px solid #fff;  
+  z-index: 20;
+  font-size: 24px;
+  color: black;
+  text-align: center;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+
+.left-control {
+  left: -1px
+} 
+
+.right-control {
+  right: -1px;
+}
+.w3layouts-login a{
+  font-size:15px;
+  text-align:center;
+  line-height:15px;
+    
+}
+.w3layouts-login a:hover{
+	color:white;
+	text-decoration:none;
+}
+
+.left-control:hover, 
+.right-control:hover {
+  color: #fff;
+}
+
+#slider:hover .left-control {
+  left:30px
+} 
+
+#slider:hover .right-control {
+  right:30px
+}
+.g-recaptcha
+{
+	width:10%;
+	margin-right:15px;
+	margin-bottom:20px;
+}
